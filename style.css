@@ -1,0 +1,101 @@
+body{
+    overflow: auto;
+   white-space: nowrap;
+}
+.loder{
+  position: absolute;
+  text-align: center;
+margin-top: 30%;
+ 
+
+}
+.card1 {
+    box-shadow: 0 0 10px #fff;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+    line-height:0.8;
+    border-radius: 1rem;
+
+      margin-right: 1rem;
+      margin-left: 1rem;
+      margin-top: 2rem;
+      max-height: 30rem;
+      line-height: 2rem;
+      max-width: 49rem;
+      /* 1rem = 16px */
+      overflow: auto ;
+      white-space: nowrap;
+  }
+  .card2{
+    background-image: linear-gradient(to bottom left,rgb(14, 24, 31) , rgb(0, 162, 255));
+    max-width: fit-content;
+    box-shadow: 0 0 10px #fff;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.6);
+    
+    line-height:0.8;
+    border-radius: 2rem;
+
+      
+      
+      margin-top: 2rem;
+      max-height: 30rem;
+      line-height: 2rem;
+      /* 1rem = 16px */
+      overflow: auto ;
+      white-space: nowrap;
+  }
+  .table-heading{
+      line-height: 2rem;
+      background-color:  rgba(28, 149, 219);
+      color:#fff;
+  }
+  
+ 
+  .greetings{
+    color: #fff;
+     
+  }
+  .e img{
+    width: 80px;
+    height: 81px;
+    border:solid 1px rgb(0, 25, 248);
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    
+  }
+  .card_detail
+{
+    display: flex;
+    justify-content: left;
+    color: #5680E9;
+}
+b{
+  color: #fff;
+  margin-top: -6px;
+  margin-left: 22px;
+}
+h6{
+  color:gold;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width:1041px) and (min-width:481px){
+  
+  .card2
+  {
+     
+      max-width: none;
+  }
+  b
+  {
+      font-size: 15px
+  }
+  .info
+  {
+      font-size: 15px
+  }
+
+
+
+  
+}
